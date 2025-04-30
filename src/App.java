@@ -48,11 +48,11 @@ public class App {
 
         // // Metodo insercionSegundo
         int[] arregloInsercionOrdenado2 = ordenador.insercionSegundo(arregloInsercion);
-        System.out.println("Resultado selección Metodo 1: " + java.util.Arrays.toString(arregloInsercionOrdenado2));
+        System.out.println("Resultado insercion Metodo 2: " + java.util.Arrays.toString(arregloInsercionOrdenado2));
 
         // // Metodo insercionTercero
         int[] arregloInsercionOrdenado3 = ordenador.insercionTercero(arregloInsercion);
-        System.out.println("Resultado selección Metodo 1: " + java.util.Arrays.toString(arregloInsercionOrdenado3));
+        System.out.println("Resultado insercion Metodo 3: " + java.util.Arrays.toString(arregloInsercionOrdenado3));
 
     }
 }
