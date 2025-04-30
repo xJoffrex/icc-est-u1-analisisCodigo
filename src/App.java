@@ -1,3 +1,5 @@
+
+
 public class App {
     public static void main(String[] args) {
 
@@ -54,5 +56,10 @@ public class App {
         int[] arregloInsercionOrdenado3 = ordenador.insercionTercero(arregloInsercion);
         System.out.println("Resultado insercion Metodo 3: " + java.util.Arrays.toString(arregloInsercionOrdenado3));
 
+        Benchmarking Tst = new Benchmarking();
+
     }
+
+    
+
 }
