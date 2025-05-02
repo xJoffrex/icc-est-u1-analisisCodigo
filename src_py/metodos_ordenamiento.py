@@ -45,7 +45,22 @@ class MetodosDeOrdenamiento:
 
         return arreglo
         
+    def shell_sort(self, array):
+        n = len(array)
+        gap = n // 2
+        sorted_arr = array.copy()  
 
+        while gap > 0:
+            for i in range(gap, n):
+                temp = sorted_arr[i]
+                j = i
+                while j >= gap and sorted_arr[j - gap] > temp:
+                    sorted_arr[j] = sorted_arr[j - gap]
+                    j -= gap
+                sorted_arr[j] = temp
+            gap //= 2
+
+        return sorted_arr
     
 
     
